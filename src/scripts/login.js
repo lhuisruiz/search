@@ -49,7 +49,7 @@ input.addEventListener("input", validarInput);
 const handleSubmit = (event) => {
   event.preventDefault();
   localStorage.setItem("player", input.value);
-  window.location = "./src/pages/game.html";
+  window.location = "./game.html";
 };
 
 form.addEventListener("submit", handleSubmit);
